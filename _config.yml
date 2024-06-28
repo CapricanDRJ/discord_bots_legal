@@ -1,1 +1,14 @@
+title: Hades Star ELO Documents
+description: >
+  This repository contains the Privacy Policy and Terms of Service for Hades Star ELO.
 theme: slate
+markdown: kramdown
+kramdown:
+  input: GFM
+sidebar:
+  title: "Contents"
+  nav:
+    - title: "Privacy Policy"
+      url: /Hades_Star_ELO_Privacy_Policy
+    - title: "Terms of Service"
+      url: /Hades_Star_ELO_Terms_of_Service
