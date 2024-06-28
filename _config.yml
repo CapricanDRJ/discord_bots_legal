@@ -1,7 +1,7 @@
 title: Hades Star ELO Documents
 description: >
   This repository contains the Privacy Policy and Terms of Service for Hades Star ELO.
-theme: Slate
+theme: jekyll-theme-slate
 markdown: kramdown
 kramdown:
   input: GFM
