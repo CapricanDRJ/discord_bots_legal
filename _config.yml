@@ -5,12 +5,14 @@ theme: slate
 markdown: kramdown
 kramdown:
   input: GFM
+
+# Optional sidebar configuration (if supported by the theme)
 sidebar:
   title: "Contents"
   nav:
     - title: "Home"
       url: /
     - title: "Privacy Policy"
-      url: /Hades_Star_ELO_Privacy_Policy
+      url: /Hades_Star_ELO_Privacy_Policy.md
     - title: "Terms of Service"
-      url: /Hades_Star_ELO_Terms_of_Service
+      url: /Hades_Star_ELO_Terms_of_Service.md
