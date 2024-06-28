@@ -8,6 +8,8 @@ kramdown:
 sidebar:
   title: "Contents"
   nav:
+    - title: "Home"
+      url: /
     - title: "Privacy Policy"
       url: /Hades_Star_ELO_Privacy_Policy
     - title: "Terms of Service"
