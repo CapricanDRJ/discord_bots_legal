@@ -1,4 +1,4 @@
-# Hades Star ELO Documents
+# Discord Bot Legal Documents
 
 Welcome to the collection of legal documents for Hades Star ELO.
 
