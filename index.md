@@ -10,3 +10,5 @@ Welcome to the collection of legal documents for several discord bots.
 - [Hades' Star Trader Terms of Service](Hades_Star_Trader_Terms_of_Service.md)
 - [Persona Privacy Policy](Persona_Privacy_Policy.md)
 - [Persona Terms of Service](Persona_Terms_of_Service.md)
+- [Hades' Star Tech Privacy Policy](Hades_Star_Tech_Privacy_Policy.md)
+- [Hades' Star Tech Terms of Service](Hades_Star_Tech_Terms_of_Service.md)
