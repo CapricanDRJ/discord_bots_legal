@@ -12,3 +12,5 @@ Welcome to the collection of legal documents for several discord bots.
 - [Persona Terms of Service](Persona_Terms_of_Service.md)
 - [Hades' Star Tech Privacy Policy](Hades_Star_Tech_Privacy_Policy.md)
 - [Hades' Star Tech Terms of Service](Hades_Star_Tech_Terms_of_Service.md)
+- [BiteFinder Privacy Policy](BiteFinder_Privacy_Policy.md)
+- [BiteFinder Terms of Service](BiteFinder_Terms_of_Service.md)
