@@ -1,31 +1,68 @@
+# **Privacy Policy**  
 
-# Privacy Policy
+## **1. Introduction**  
+- **Overview**: This policy explains how *Hades' Star RS Q* (the "Bot") collects, processes, and shares data.  
+- **Scope**: This policy applies to all users and entities interacting with the Bot.  
+- **Purpose**: The Bot is a community service designed to facilitate Red Star queues, scoreboards, and related functionalities.  
 
-## 1. Introduction
-- **Overview**: This policy describes how "Hades' Star RS Q" handles user data.
-- **Scope of the Policy**: This policy applies to all users of the bot.
+## **2. Information We Collect**  
 
-## 2. Information We Collect
-- **Personal Information**: The bot temporarily collects user data for the duration of the queue. This data is automatically removed when the user exits the queue.
-- **Non-Personal Information**: The bot collects customization preferences related to corporations within Hades' Star. Masked statistical data related to queue activities is shared publicly on GitHub.
+### **2.1 Queue Data**  
+- The Bot **processes Discord user IDs and corporation IDs** for queue functionality.
+- **Obfuscated Discord user IDs are publicly accessible on GitHub** for statistical and analytical purposes.
+- **User preferences**, linked to Discord IDs, are stored for customization.  
 
-## 3. How We Use the Information
-- **Providing and Improving Services**: The data is used to manage queues and provide bot functionality, including storing customization preferences.
-- **Statistical Analysis**: Masked statistical data is analyzed and shared publicly to improve the service and provide insights.
+### **2.2 Webhook Data**  
+- **Hades’ Star provides data.json files via webhooks**, which are enabled at the discretion of a corporation.  
+- The Bot **processes and aggregates** this data for **automation, leaderboard tracking, and statistical analysis**.  
+- **Certain contents of data.json are made publicly available**, such as for scoreboards or community analytics.  
+- **Hades’ Star user handles may be included but are not unique or verifiable.**  
 
-## 4. Sharing of Information
-- **With Third Parties**: Masked statistical data is shared publicly on GitHub.
-- **Legal Requirements**: Data may be disclosed if required by law.
+## **3. Data Usage**  
+- **Services & Automation**: Data is used for queue management, event tracking, and bot functionality.  
+- **Public Data Sharing**:  
+  - **Obfuscated queue data is uploaded to GitHub**, where it remains publicly accessible.  
+  - **Aggregated leaderboard or analytical data is shared publicly**  
+- **Third-Party Access**:  
+  - Other bots and services **may access publicly available data on GitHub**.  
+  - **No personally identifiable data is collected, processed, or shared**.  
 
-## 5. Data Security
-- **Security Measures**: Temporary data collected during the queue is stored securely and deleted upon exit from the queue. Customization preferences and masked statistical data are stored securely and shared publicly.
+## **4. Data Retention & Security**  
+- **User preferences are stored** for customization.  
+- **Obfuscated queue data remains on GitHub indefinitely**, and previous revisions may be retained by GitHub.  
+- **Webhook data is retained for an undetermined period, typically no longer than one year**.  
+- **Once published, public data cannot be removed upon request**, as it is outside the Bot’s control and may be aggregated by other services.  
+- **There is no method to associate a Discord ID with an obfuscated Hades' Star ID**; user identity cannot be verified.  
 
-## 6. User Rights
-- **Access and Correction**: Since data is only temporarily stored during the queue, there is no data available for access or correction once it is removed.
-- **Opt-out**: Users can stop using the bot’s services at any time by not entering the queue.
+## **5. Responsibility & Liability**  
+- **Hades’ Star determines webhook content**; the Bot only processes what is received.  
+- **Corporations voluntarily enable webhooks** and can disable them at any time.  
+- **Disputes regarding webhook data should be directed to the corporation that enabled the webhook**, though resolution is not guaranteed.  
+- **GitHub may retain historical data, including raw data or scoreboards, beyond the Bot’s control**.  
+- **The Bot does not process any personal or sensitive data** and has no method to verify user identities between Discord and Hades’ Star.  
 
-## 7. Changes to the Policy
-- **Notification of Changes**: We will notify users of significant changes to this policy.
+## **6. User Rights & Opt-Out**  
+- **Obfuscated queue data cannot be modified or deleted** after publication.  
+- **Users may stop interacting with the Bot at any time** to prevent their data from being included in queue aggregation. However, data received from a Hades’ Star webhook enabled by a corporation may still be processed, regardless of user interaction with the Bot.
+- **Corporations may disable webhooks or remove the Bot from the relevant channels** to stop data collection.  
 
-## 8. Contact Information
-- **Support Contact**: For support, contact [caprican@tsl.rocks](mailto:caprican@tsl.rocks).
+## **7. Limitation of Liability**  
+- **The Bot is provided "as-is" without warranties of any kind**, express or implied.  
+- **The developers of the Bot shall not be held liable** for any damages, losses, or issues arising from the use of the Bot, including but not limited to:  
+  - Data inaccuracies  
+  - Service disruptions  
+  - Third-party access or misuse of publicly available data  
+- **By using the Bot, you agree to hold the developers harmless** from any claims or liabilities related to its use.  
+
+## **8. Disclaimers**  
+- **The Bot is not responsible for the accuracy of third-party data, including webhook content from Hades' Star**.  
+- **Other bots and services may use publicly available aggregated data, but no personally identifiable data is processed or shared.**  
+- **Privacy Considerations:** Users concerned about data collection under privacy laws should be aware that this Bot processes **publicly available data that is not personally identifiable**. The Bot does not collect, store, or process sensitive information and does not perform any form of identity verification. It assumes that the Discord IDs and obfuscated Hades’ Star IDs provided by their respective platforms are correct. The Bot uses Hades’ Star obfuscated IDs **only to differentiate users with the same name** and does not attempt to link them to real-world identities. Any identification or association of users is determined solely by the **services providing the data**, such as Discord or Hades’ Star. If you have concerns about how your information is handled, we recommend addressing them directly with the **platforms responsible for providing user identification**, as this Bot has no control over or ability to modify the data supplied by those services.
+- **Privacy Considerations:** Users may choose to associate their Discord ID with their Hades' Star name, but this association is **self-reported** and **not verified by the Bot**. Any verification or approval of these links is the responsibility of **Discord server administrators**, not the Bot. The Bot does not authenticate, enforce, or guarantee the accuracy of any user-provided identity links. The Bot uses Hades’ Star obfuscated IDs **only to differentiate users with the same name** and does not attempt to link them to real-world identities. Any identification or association of users is determined solely by the **services providing the data**, such as Discord or Hades’ Star. If you have concerns about how your information is handled, we recommend addressing them directly with the **platforms responsible for providing user identification**, as this Bot has no control over or ability to modify the data supplied by those services.
+
+## **9. Changes to the Policy**  
+- **This policy may be updated** periodically.  
+- **Updates will be posted on the GitHub repository** where this agreement is published. Continued use of the Bot after changes take effect constitutes acceptance of the updated policy.  
+
+## **10. Contact**  
+For inquiries, contact **[caprican@tsl.rocks](mailto:caprican@tsl.rocks)**.  
