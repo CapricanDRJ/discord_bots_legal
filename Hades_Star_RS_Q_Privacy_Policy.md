@@ -5,18 +5,33 @@
 - **Scope**: This policy applies to all users and entities interacting with the Bot.  
 - **Purpose**: The Bot is a community service designed to facilitate Red Star queues, scoreboards, and related functionalities.  
 
-## **2. Information We Collect**  
+## **2. Information We Collect**
 
-### **2.1 Queue Data**  
-- The Bot **processes Discord user IDs and corporation IDs** for queue functionality.
-- **Obfuscated Discord user IDs are publicly accessible on GitHub** for statistical and analytical purposes.
-- **User preferences**, linked to Discord IDs, are stored for customization.  
+### **2.1 User Preferences and Queue Data**
+- The Bot stores **user-submitted preferences and configuration settings** tied to Discord user IDs.
+- These preferences are used to facilitate dungeon queues, particularly where **technology levels or strategy preferences** are relevant for group formation.
+- Discord IDs are used as persistent identifiers, and the Bot relies on Discord as the **authentication authority**. No attempt is made to independently verify or link Discord IDs to any real-world identity.
+- This data is stored solely to enhance usability and avoid requiring users to re-enter preferences each time.
+- For queue activity, the Bot creates and displays internally obfuscated identifiers derived from Discord user IDs. These identifiers are used to show queue participation consistently over time and are not linked to Discord usernames, server names, or any personal data. While the obfuscation method is designed to prevent identification, users should be aware that de-anonymization may still be possible in small or closely connected communities.
 
-### **2.2 Webhook Data**  
-- **Hades’ Star provides data.json files via webhooks**, which are enabled at the discretion of a corporation.  
-- The Bot **processes and aggregates** this data for **automation, leaderboard tracking, and statistical analysis**.  
-- **Certain contents of data.json are made publicly available**, such as for scoreboards or community analytics.  
-- **Hades’ Star user handles may be included but are not unique or verifiable.**  
+### **2.2 Webhook Event Data**
+- The Bot processes event data sent by **Hades’ Star’s webhook system**, which includes JSON payloads for:
+  - Red Star Started  
+  - Red Star Ended  
+  - White Star Started  
+  - White Star Ended
+- To enable this, **Discord server administrators must use the `/rse webhook` command**, which creates a webhook tied to the Bot’s application ID.
+- Only data from these authorized webhooks is processed. While this setup helps limit data sources, it is not fully secure and could be manipulated by others.
+- The Bot **does not have read access to message content directly**, so it must **query Discord for webhook message content** based on the webhook ID. The message is then reformatted into a human-readable form and optionally edited for clarity.
+- **Visibility of the webhook messages within Discord is up to each server administrator** (i.e., whether the `data.json` posts are made in a public or private channel). However, the **data is still processed independently for use in leaderboards**, regardless of how it is displayed in Discord.
+
+### **2.3 Aggregated Statistics and Public Leaderboards**
+- The Bot aggregates event data using **obfuscated Hades’ Star identifiers**, which are stable across events but not traceable to real-world identities.
+- It generates **public leaderboards and performance stats** using algorithms like Elo and experimental TrueSkill variants.
+- These leaderboards are:
+  - **Accessible via bot commands by any user**
+  - **Publicly viewable for White Star events through a GitHub-hosted page**
+- While data visibility in Discord is controlled by each server, **processed data and leaderboard outputs are public** and not restricted based on Discord channel settings.
 
 ## **3. Data Usage**  
 - **Services & Automation**: Data is used for queue management, event tracking, and bot functionality.  
@@ -44,7 +59,9 @@
 ## **6. User Rights & Opt-Out**  
 - **Obfuscated queue data cannot be modified or deleted** after publication.  
 - **Users may stop interacting with the Bot at any time** to prevent their data from being included in queue aggregation. However, data received from a Hades’ Star webhook enabled by a corporation may still be processed, regardless of user interaction with the Bot.
-- **Corporations may disable webhooks or remove the Bot from the relevant channels** to stop data collection.  
+- **Corporations may disable webhooks or remove the Bot from the relevant channels** to stop data collection.
+- Internally obfuscated identifiers shown in public queue logs are derived from Discord user IDs. These are not linked to usernames or server details, and the Bot does not authenticate users or verify their identity. While the obfuscation is designed to limit identifiability, absolute anonymity cannot be guaranteed in small or highly active communities.
+
 
 ## **7. Limitation of Liability**  
 - **The Bot is provided "as-is" without warranties of any kind**, express or implied.  
