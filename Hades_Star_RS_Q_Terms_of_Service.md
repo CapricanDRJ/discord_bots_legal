@@ -1,7 +1,7 @@
 # Terms of Service  
 
 ## **1. Introduction**  
-- **Service Description**: "Hades' Star RS Q" (the "Bot") is a Discord bot designed to facilitate **Red Star queue coordination and leaderboard tracking** for the game Hades' Star. The Bot processes **publicly available data** from Discord and Hades’ Star to provide queue management, statistical analysis, and automation features. The Bot does **not collect, store, or process personal data**, nor does it perform any form of identity verification. Some **aggregated data may be uploaded to GitHub** for public accessibility.  
+- **Service Description**: "Hades' Star RS Q" (the "Bot") is a Discord bot designed to facilitate **Red Star queue coordination and leaderboard tracking** for the game Hades' Star. These Terms are intended to comply with Canadian law. The Bot is offered as a non-commercial community service and is not intended to collect or process personal information as defined under Canadian privacy legislation. The Bot processes game-generated webhook-delivered data from Hades’ Star, and interacts with Discord user IDs solely within Discord’s platform for functionality. It does not access or expose personal data or direct message content. The Bot does **not collect, store, or process personal data**, nor does it perform any form of identity verification. Some **aggregated data may be uploaded to GitHub** for public accessibility.  
 - **Acceptance of Terms**: By using "Hades' Star RS Q", you agree to these terms. If you do not agree to these terms, do not use the Bot.  
 
 ## **2. User Responsibilities**  
@@ -12,12 +12,12 @@
 - **Prohibited Activities**: Users must not exploit the bot for unauthorized data access, data manipulation, or any activity that violates Discord’s Terms of Service or the policies of Hades’ Star.  
 - **Termination of Service**: We reserve the right to terminate access to the bot for violating these terms.  
 
-## **4. Data Handling & Privacy Considerations**  
-- **Public Data Processing**: The Bot processes **only publicly available data** from Discord and Hades’ Star. It does **not collect, store, or process personal data** of any kind.  
-- **No Identity Verification**: The Bot does **not verify user identities**. It assumes that the **Discord IDs and obfuscated Hades’ Star IDs provided by their respective platforms are correct**. Any user attempting to associate their Discord ID with their Hades’ Star name does so **without verification from the Bot**.  
-- **GitHub Data Uploads**: Some processed data may be **uploaded to GitHub** for public access, such as aggregated queue statistics, leaderboards, or analytical data. Once uploaded, this data is subject to **GitHub’s data retention policies**. The Bot has **no control over historical GitHub revisions** and **cannot remove previously uploaded data**.  
-- **Data Ownership**: Users acknowledge that any public data uploaded to GitHub is **not owned by the Bot** and that the Bot is **not responsible for verifying the accuracy or authenticity of publicly shared data**.
-- **Third-Party Responsibility**: Any user identification is determined solely by **Discord and Hades’ Star**, not this Bot. The Bot does **not control, modify, or verify** any user data provided by these services. Users concerned about privacy should address their concerns **directly with Discord or Hades’ Star**.
+## **4. Data Handling & Privacy Considerations**
+- **Bot-Processed Data**: The Bot processes game-generated and webhook-delivered data from Hades’ Star, and interacts with Discord user IDs strictly within the Discord platform. It does not access, store, or transmit personal data, message content, or sensitive user information.
+- **No Identity Verification**: The Bot does not verify the identity of users. Any associations between a Discord ID and a Hades’ Star name are user-declared and not validated by the Bot. Obfuscated identifiers used in queue tracking or event stats are designed to preserve anonymity but are not guaranteed to prevent identification in small or familiar communities.
+- **GitHub Data Uploads**: Some aggregate data — such as queue logs, White Star performance metrics, or leaderboard statistics — may be uploaded to GitHub for public visibility. Once published, this data is subject to GitHub’s data retention policies. The Bot does not control prior revisions and cannot remove previously uploaded content.
+- **Data Ownership**: Users acknowledge that data displayed or uploaded via the Bot is either sourced from Discord and Hades’ Star or derived via automation and does not constitute user-owned content. The Bot is not responsible for verifying the accuracy, authorship, or context of any such content.
+- **Third-Party Responsibility**: All user identifiers and source data are provided by Discord and Hades’ Star. Users with privacy concerns must contact those platforms directly. The Bot is a neutral processor and does not influence, modify, or authenticate this input data.
 
 ## **5. Intellectual Property**  
 - **Ownership**: The bot and its underlying technology are owned by Backwoods Byte Builders.  
