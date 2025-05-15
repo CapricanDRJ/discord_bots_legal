@@ -8,6 +8,7 @@ These Terms of Service ("Terms") govern your use of the Hades' Star Tech bot ("t
 
 - **Purpose**: The bot facilitates recording and sharing tech levels related to the Hades' Star game. It allows users to input their tech levels and choose which discords to share this information with. Users can also modify or delete profiles using the `/alt` command.
 - **User Control**: You have control over the data you share and who you share it with via the `/corp` command. The bot allows you to change or remove discord servers you share with.
+- Designated Discord server administrators may be granted limited API access to retrieve shared tech data submitted by users within their own server. API access is strictly scoped to each user’s explicitly shared data and does not permit access to data from other servers or users who have not opted in.
 
 ## 3. Disclaimer of Warranties
 
@@ -32,3 +33,8 @@ We may update these Terms from time to time. Any changes will be posted on the b
 ## 8. Contact Us
 
 If you have any questions about these Terms, please contact us through the bot's support channel.
+
+## 9. Governing Law
+
+These terms are governed by and construed in accordance with the laws of Canada. Any legal disputes shall be resolved exclusively in Canadian courts. The bot is a non-commercial service operated in compliance with Canadian privacy and liability standards.
+
