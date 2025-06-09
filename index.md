@@ -14,3 +14,5 @@ Welcome to the collection of legal documents for several discord bots.
 - [Hades' Star Tech Terms of Service](Hades_Star_Tech_Terms_of_Service.md)
 - [BiteFinder Privacy Policy](BiteFinder_Privacy_Policy.md)
 - [BiteFinder Terms of Service](BiteFinder_Terms_of_Service.md)
+- [SubScriber Privacy Policy](SubScriber_Privacy_Policy.md)
+- [SubScriber Terms of Service](SubScriber_Terms_of_Service.md)
