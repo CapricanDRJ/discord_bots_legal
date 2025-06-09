@@ -27,9 +27,12 @@ This Privacy Policy describes how SubScriber (the "Bot") handles data. The Bot i
 - Webhook and post tracking is maintained only as needed for functionality.
 - The Bot does not retain logs of user actions or past content after posting.
 
-## **6. Security Measures**
-- Stored data is kept locally and protected using system-level file access controls.
-- The Bot does not transmit stored data externally.
+## 6. Security Measures
+
+- Stored configuration data is kept in local SQLite databases without encryption.
+- This data is limited to non-sensitive configuration information and is not intended to include personal or identifying data.
+- No guarantees are made regarding the security of this data.
+- The Bot is hosted on a system that may run other applications or cloud services, but it does not intentionally transmit stored bot data to any external services.
 
 ## **7. Public Content Notice**
 - Reddit content may be offensive or unmoderated.
